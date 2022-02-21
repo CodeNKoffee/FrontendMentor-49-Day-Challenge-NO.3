@@ -45,7 +45,7 @@ Using efficient class names to remember them easily, don't over complicate/over 
 
 ### Continued development
 
-Efficient class naming and speed in developing
+Speed-typing without **typos**
 
 ---
 ---
@@ -61,6 +61,6 @@ Efficient class naming and speed in developing
 
 ## Acknowledgments
 
-Do **Sass best practices** if you're before using it in projects. Sass is another dimension in styling compared to Vanilla CSS but can get pretty intimidating when there are too much elements.
+Practice coding fast without depending on Emmet so you can learn how to code fast and correctly.
 
 Don't forget to listen to your favourite music while coding, it helps alot!
