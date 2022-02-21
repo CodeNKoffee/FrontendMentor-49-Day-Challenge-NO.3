@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.component__card {
+  width: 320px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.img__wrapper {
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.component__card--content {
+  margin: 8px;
+  margin-bottom: 0;
+  padding: 4px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.component__card--title {
+  font-size: 24px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 8px 0;
+}
+
+.component__card--para {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  margin: 8px 0;
+  padding: 8px 16px;
+}
+
+.component__card--info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__icon--wrapper {
+  width: 30%;
+}
+
+.info__icon {
+  width: 50%;
+}
+
+.info__subscription {
+  width: 40%;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info__subscription--title {
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.info__subscription--sub-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.info__subscription--btn {
+  width: 30%;
+  background-color: transparent;
+  border: none;
+  color: hsl(245, 75%, 52%);
+  transition: all 300ms ease;
+}
+
+.info__subscription--btn:hover {
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.cta__btns {
+  width: 100%;
+  margin: 8px 0;
+  margin-bottom: 0;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta__btn {
+  font-size: 16px;
+  font-weight: 900;
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(224, 23%, 55%);
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px 8px;
+  transition: all 300ms ease;
+}
+
+.cta__btn:hover {
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+
+#special {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 94%);
+  margin-bottom: 8px;
+}
+
+#special:hover {
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(245, 75%, 52%);
+}
+
+
+
+
+
+
+
+
+
+
+
